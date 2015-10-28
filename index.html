@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+  <head>
+    <title>
+      javascript syntax diff gui
+    </title>
+    <meta charset='utf8'>
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <script src="third_party/js/codemirror.js"></script>
+    <link rel="stylesheet" href="third_party/css/codemirror.css">
+    <script src="third_party/js/javascript.js"></script>
+    <link rel="stylesheet" href="third_party/css/Treant.css">
+    <link rel="stylesheet" href="third_party/css/collapsable.css">
+    <!-- <link rel="stylesheet" href="third_party/css/perfect-scrollbar/perfect-scrollbar.css"> -->
+  </head>
+
+    <body>
+      <div id='main'>
+        <div id='code'>
+          <div id='left'>
+            <textarea class='edit' rows='32' cols='62'></textarea>
+          </div>
+          <div id='right'>
+          	<textarea class='edit' rows='32' cols='62'></textarea>
+          </div>
+     	</div>
+     	<div id='show'>
+     	  show diff
+      	</div>
+      	<div id='error'>
+  		</div>	
+     	<div id='diff'>
+     	</div>
+     	<div id='footer'>
+     	</div>
+     </div>
+     <script src="third_party/js/jquery.js"></script>
+     <script src="third_party/js/raphael.js"></script>
+     <script src="third_party/js/Treant.js"></script>
+     <script src="third_party/js/jquery.easing.js"></script>
+     <script src="third_party/js/objectDiff.js"></script>
+     <script src="third_party/js/lodash.js"></script>
+     
+     <script src="https://cdn.rawgit.com/jquery/esprima/2.7.1/esprima.js"></script>
+     <script src="src/ast_diff.js"></script>
+     <script src="src/application.js"></script>
+    </body>
+  </html>

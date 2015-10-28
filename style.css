@@ -1,0 +1,58 @@
+body {
+	background-color: #eee;
+	font-family: helvetica;
+	font-size: 16px;
+}
+
+.edit {
+	
+}
+
+#code {
+	margin-left: 80px;
+	height: 400px;
+}
+
+#code > #left {
+	width: 46%;
+	float: left;
+}
+
+#code > #right {
+	width: 46%;
+	margin-left: 0;
+	float: left;
+}
+
+#diff {
+	width: 100%;
+	height: 500px;
+}
+
+#show {
+	text-align: center;
+	font-size: 22px;
+}
+
+#error {
+	font-size: 22px;
+	color: red;
+	text-align: center;
+}
+
+.same {
+	color: black;
+}
+
+.add {
+	color: green;
+}
+
+.remove {
+	color: red;
+}
+
+.moved {
+	color: orange;
+}
+
