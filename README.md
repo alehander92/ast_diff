@@ -6,7 +6,7 @@ A tool for visualization of diffs between javascript source syntax trees
 
 ![an image of a visualized syntax tree diff](http://i.imgur.com/tPKdSMX.png)
 
-## what works
+## what is this
 
 Currently you can compare two versions of a single function, and see a visualization of a syntax tree containing the removed nodes, the added nodes and the nodes that remained the same. 
 
@@ -19,7 +19,9 @@ It uses `esprima` for parsing javascript source, `Treant` and `raphael.js` for d
 * Improve visualization for different kinds of nodes
 * Improve diff algorithm, find nodes moving up and down the tree
 * Add tests
+* Move the diff code to a library
 
 ## License
 
-MIT License
+MIT License, Alexander Ivanov, 2015
+
