@@ -4,6 +4,8 @@ A tool for visualization of diffs between javascript source syntax trees
 
 **early stage**
 
+![an image of a visualized syntax tree diff](http://i.imgur.com/tPKdSMX.png)
+
 ## what works
 
 Currently you can compare two versions of a single function, and see a visualization of a syntax tree containing the removed nodes, the added nodes and the nodes that remained the same. 
