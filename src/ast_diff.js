@@ -2,11 +2,6 @@ function diffAST(previous, next) {
     var previousAST = esprima.parse(previous);
     var nextAST = esprima.parse(next);
 
-    window.a = previousAST;
-    window.b = nextAST;
-    console.log(previousAST);
-    console.log(nextAST);
-
     var ok = ensureSingleFunction(previousAST);
     if (ok) { 
         ok = ensureSingleFunction(nextAST);

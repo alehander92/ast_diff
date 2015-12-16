@@ -92,7 +92,7 @@ function visualizeTree(diffTree) {
 	    },
 	    nodeStructure: diffToNodes(diffTree, 'same')
 	};
-	window.d = diffTree
-	window.c = chartConfig
+
 	var visibletree = new Treant(chartConfig);
 }
+
